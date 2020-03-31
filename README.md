@@ -6,9 +6,13 @@ If you want to use it you need these 2 programs
 
 - TrinusPSVR (https://www.trinusvirtualreality.com/psvr/)
     -> Set Mode to "SteamVR"
+    
     -> Go to the Tracking Tab
+    
     -> Set "Head Device" to "FreePieHead Position"
+    
     -> Set "Left Hand Device" to "FreePieLeft"
+    
     -> Set "Right Hand Device" to "FreePieRight"
     
 - FreePie (https://github.com/AndersMalmgren/FreePIE)
