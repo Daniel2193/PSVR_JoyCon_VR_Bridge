@@ -4,6 +4,11 @@
 
 This Repo is my attempt on making VR Games playable without actual VR Hardware
 
+For this Project im using a PSVR Headset and 2 Nintendo Switch Joycons
+
+
+# Setup
+
 If you want to use it you need these 2 programs
 
 - TrinusPSVR (https://www.trinusvirtualreality.com/psvr/)
@@ -21,14 +26,21 @@ If you want to use it you need these 2 programs
 - FreePie (https://github.com/AndersMalmgren/FreePIE)
 
 
+# Changelog
+
+
 # Upcoming stuff
+
 - Cleaning and adding JoyCon communication into this Repository
+
 - Cleaning and adding the Raspberry Pi Scripts to this Repository
+
 
 
 # Development
 Im just a solo developer so if you want to help me feel free to start an issue or a pull request
-If you want to contact me for some reason here's my Discord Tag: Daniel2193#2154
+
+If you want to contact me for some reason here's my Discord Tag: Daniel2193#2154 but if you do please tell me that you came from github
 
 
 # My Setup
