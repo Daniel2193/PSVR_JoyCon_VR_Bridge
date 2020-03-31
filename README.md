@@ -5,6 +5,7 @@ This Repo is my attempt on making VR Games playable without actual VR Hardware
 If you want to use it you need these 2 programs
 
 - TrinusPSVR (https://www.trinusvirtualreality.com/psvr/)
+
     -> Set Mode to "SteamVR"
     
     -> Go to the Tracking Tab
