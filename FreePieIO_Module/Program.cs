@@ -44,7 +44,10 @@ namespace FreePieIO_Module
         [DllImport("freepie_io.dll", CallingConvention = CallingConvention.Cdecl)]
         private static extern int freepie_io_6dof_write(int index, int length, Data[] data);
 
-        //0 -> Controller buttons   1 -> Headset   2 -> Left Controller   3 -> Right Controller
+        //The port to receive the data from
+        private const int port = 2193;
+
+        //Index:   0 -> Controller Buttons   1 -> Headset   2 -> Left Controller   3 -> Right Controller
         private const int WriteToIndex = 1;
 
         //Multiplier
@@ -79,7 +82,7 @@ namespace FreePieIO_Module
         static double ROLL3 = 0;
         static double PITCH2 = 0;
         static double PITCH3 = 0;
-        static double yAW2 = 0;
+        static double YAW2 = 0;
         static double YAW3 = 0;
 
         static void Main(string[] args)
@@ -89,7 +92,7 @@ namespace FreePieIO_Module
             
             Task.Run(async () =>
             {
-                using (var udp = new UdpClient(2193))
+                using (var udp = new UdpClient(port))
                 {
                     string[] data;
                     while (true)
@@ -97,7 +100,7 @@ namespace FreePieIO_Module
                         //This UdpClient rreceives Data from a Raspberry Pi
                         var rec = await udp.ReceiveAsync();
                         string sup = Encoding.ASCII.GetString(rec.Buffer);
-                        data = Regex.Split(sup, "lol");
+                        data = Regex.Split(sup, "aaaa");//Any non numeric seperator
 
                         //At the moment im only transfering 3 numbers (double)
                         X1 = Convert.ToDouble(data[0]) * x1m;
@@ -120,7 +123,7 @@ namespace FreePieIO_Module
                     Y = (float) Y1,
                     Z = (float) Z1
                 };
-                yaw = yaw + 0.00001f;
+                yaw = yaw + 0.00001f;//Just so I can see if the program is still sending values
                 if (yaw > 180)
                     yaw = -180;
 
@@ -131,7 +134,7 @@ namespace FreePieIO_Module
             }
         }
 
-        private static void SetFreePIEDllPath()
+        private static void SetFreePIEDllPath()//Example code by the FreePie developer to load the FreePieIO dll
         {
             var path = Registry.GetValue(string.Format("{0}\\Software\\{1}", Registry.CurrentUser, "FreePIE"), "path", null) as string;
             SetDllDirectory(path);
