@@ -45,6 +45,21 @@ If you want to use it you need these 2 programs
 - Then copy the "hidapi.dll" file from "PSVR_JoyCon_VR_Bridge/FreePieIO_Module/PrecompiledResources/hidapi.dll" to your FreePie install directory (default: C:\Program Files (x86)\FreePie\). You can build the DLL file from this (https://github.com/libusb/hidapi) repository if you want to do it yourself or have problems with the precompiled DLL.
 
 
+# Mapping
+
+- Touchpad Touch -> Analog Stick
+
+- Touchpad Press -> Analog Stick Press
+
+- Trigger -> ZL/ZR
+
+- Grip -> [L]SR / [R]SL
+
+- System -> -/+
+
+- Menu -> DpadLeft/Y
+
+
 # Changelog
 
 - 13.04.2020
