@@ -43,11 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DriftFilter.cs" />
+    <Compile Include="JoyconLib4CS\HIDapi.cs" />
+    <Compile Include="JoyconLib4CS\Joycon.cs" />
+    <Compile Include="JoyconLib4CS\JoyconManager.cs" />
+    <Compile Include="JoyconLib4CS\MathHelper.cs" />
+    <Compile Include="JoyconLib4CS\Matrix.cs" />
+    <Compile Include="JoyconLib4CS\Quaternion.cs" />
+    <Compile Include="JoyconLib4CS\Vector3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="PrecompiledResources\hidapi.dll" />
+    <Content Include="thirdparty\hidapi\win32\hidapi.dll" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
