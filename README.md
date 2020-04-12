@@ -1,10 +1,16 @@
-# NOT READY YET
+# NOT FINISHED YET
 
 # Overview
 
 This Repo is my attempt on making VR Games playable without actual VR Hardware
 
 For this Project im using a PSVR Headset and 2 Nintendo Switch Joycons
+
+
+# Known issues
+
+- Small drift on left Joycon
+- Small drift on right Joycon when moving
 
 
 # Setup
@@ -23,7 +29,20 @@ If you want to use it you need these 2 programs
     
     -> Set "Right Hand Device" to "FreePieRight"
     
+    -> [Temporary] Enable "Follow Headset"
+    
+    -> [Temporary] Enable "Rotate With Headset"
+    
+    -> [Temporary] Play around with the "Controller Position" Sliders until they are where you want them to be
+    
 - FreePie (https://github.com/AndersMalmgren/FreePIE)
+
+    -> Install
+    
+    [Optional] -> Open and run the FreePieIODebug.py Script
+    
+    
+- Then copy the "hidapi.dll" file from "PSVR_JoyCon_VR_Bridge/FreePieIO_Module/PrecompiledResources/hidapi.dll" to your FreePie install directory (default: C:\Program Files (x86)\FreePie\). You can build the DLL file from this (https://github.com/libusb/hidapi) repository if you want to do it yourself or have problems with the precompiled DLL.
 
 
 # Changelog
@@ -45,7 +64,7 @@ If you want to contact me for some reason here's my Discord Tag: Daniel2193#2154
 
 # My Setup
 - Windows 10 Home x64
-- Intel COre i7-6700k
+- Intel Core i7-6700k
 - 16GB RAM
 - AMD Radeon RX 590 (same Power as NVidias GTX 1070)
 - 2 JoyCons
@@ -56,3 +75,6 @@ If you want to contact me for some reason here's my Discord Tag: Daniel2193#2154
 
 # Credits
 
+-hidapi.dll from https://github.com/libusb/hidapi
+
+-Joycon interface based on https://github.com/gb2111/JoyconLib-4-CS
