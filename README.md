@@ -51,13 +51,13 @@ If you want to use it you need these 2 programs
 
 - Touchpad Press -> Analog Stick Press
 
-- Trigger -> ZL/ZR
+- Trigger -> ZL / ZR
 
 - Grip -> [L]SR / [R]SL
 
-- System -> -/+
+- System -> - / +
 
-- Menu -> DpadLeft/Y
+- Menu -> DpadLeft / Y
 
 
 # Changelog
