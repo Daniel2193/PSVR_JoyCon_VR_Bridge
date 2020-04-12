@@ -9,7 +9,7 @@ For this Project im using a PSVR Headset and 2 Nintendo Switch Joycons
 
 # Known issues
 
-- Small drift on left Joycon
+- Small drift on left Joycon when resting
 - Small drift on right Joycon when moving
 
 
