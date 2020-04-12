@@ -47,10 +47,19 @@ If you want to use it you need these 2 programs
 
 # Changelog
 
+- 13.04.2020
+    
+    -> Added Joycon communication
+    
+    -> Added Drift filter
 
 # Upcoming stuff
 
-- Cleaning and adding JoyCon communication into this Repository
+- Adding Relative positioning (along Y and Z axis)
+
+- Adding external Position Tracking
+
+- Increasing effectiveness of Drift Filter
 
 - Cleaning and adding the Raspberry Pi Scripts to this Repository
 
