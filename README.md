@@ -76,6 +76,10 @@ If you want to use it you need these 2 programs
 
 - Increasing effectiveness of Drift Filter
 
+- Add Adaptive and AI based Drift Filter
+
+- Add Kalman filter
+
 - Cleaning and adding the Raspberry Pi Scripts to this Repository
 
 
