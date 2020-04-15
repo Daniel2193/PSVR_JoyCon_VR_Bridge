@@ -151,7 +151,7 @@ namespace FreePieIO_Module
                 calibFinished[0] = false;
                 calibFinished[1] = false;
                 Console.ReadLine();
-                Console.WriteLine("Beginning calibration. This will take");
+                Console.WriteLine("Beginning calibration. This will take " + (DriftSamples * DriftSampleDelay / 1000) + " seconds");
                 calibration(0);
                 calibration(1);
                 Thread.Sleep(DriftSamples*DriftSampleDelay+500);
