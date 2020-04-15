@@ -1,4 +1,4 @@
-# NOT FINISHED YET
+# STILL IN DEVELOPMENT
 
 # Overview
 
@@ -16,7 +16,7 @@ For this Project im using a PSVR Headset and 2 Nintendo Switch Joycons
     -> If this doesnt work just restart the FreePieIO_Module.exe
 
 
-# Setup
+# Setup / How to Run it
 
 If you want to use it you need these 2 programs
 
@@ -46,6 +46,8 @@ If you want to use it you need these 2 programs
     
     
 - Then copy the "hidapi.dll" file from "PSVR_JoyCon_VR_Bridge/FreePieIO_Module/PrecompiledResources/hidapi.dll" to your FreePie install directory (default: C:\Program Files (x86)\FreePie\). You can build the DLL file from this (https://github.com/libusb/hidapi) repository if you want to do it yourself or have problems with the precompiled DLL.
+
+- Make sure your Joycons are connected to your Computer. Then start the "FreePieIO_Module.exe". After a few seconds the last line should be "Awaiting calibration...". Place the Joycons on a flat surface and Press ENTER/RETURN to start the calibration. After the calibration is done you should be good to go.
 
 
 # Mapping
@@ -105,7 +107,7 @@ If you want to contact me for some reason here's my Discord Tag: Daniel2193#2154
 - AMD Radeon RX 590 (same Power as NVidias GTX 1070)
 - 2 JoyCons
 - PSVR Headset (Nothing else just the Headset)
-- Raspberry Pi 4B (Camera 1)
+- Raspberry Pi 4B (Camera 1) [not in use yet]
 - Raspberry Pi 3B+ (Camera 2) [not in use yet]
 
 
