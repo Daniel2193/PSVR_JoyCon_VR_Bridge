@@ -184,10 +184,6 @@ namespace FreePieIO_Module
                 }
             });
 
-            
-
-            var yaw = 0f;
-
             DateTime tick = DateTime.Now;
             while (true)
             {
