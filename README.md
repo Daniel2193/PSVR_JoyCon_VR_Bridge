@@ -9,8 +9,9 @@ For this Project im using a PSVR Headset and 2 Nintendo Switch Joycons
 
 # Known issues
 
-- Small drift on left Joycon when resting
-- Small drift on right Joycon when moving
+- Resetting the Joycon orientation (Yaw Axis) sometimes not work as supposed
+
+    -> Easy Fix: Aling your Joycon to the rotation you see in VR and press Reset again
 
 
 # Setup
@@ -53,30 +54,35 @@ If you want to use it you need these 2 programs
 
 - Trigger -> ZL / ZR
 
-- Grip -> [L]SR / [R]SL
+- Grip -> (Left)SR / (Right)SL
 
 - System -> - / +
 
 - Menu -> DpadLeft / Y
 
+- [Reset Orientation] -> Home/Capture
+
 
 # Changelog
+
+- 15.04.2020
+
+    -> Added adaptive Drift Filter / calibration
+    
+    -> Added Reset Orientation mapped to Home/Capture Button (for each Joycon)
+
 
 - 13.04.2020
     
     -> Added Joycon communication
     
-    -> Added Drift filter
+    -> Added basic Drift filter
 
 # Upcoming stuff
 
 - Adding Relative positioning (along Y and Z axis)
 
 - Adding external Position Tracking
-
-- Increasing effectiveness of Drift Filter
-
-- Add Adaptive and AI based Drift Filter
 
 - Add Kalman filter
 
