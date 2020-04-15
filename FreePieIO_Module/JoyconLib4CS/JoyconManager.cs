@@ -12,6 +12,8 @@ namespace Joycon4CS
 	public class JoyconManager
 	{
 
+		public static int timerTick = 16;
+
 		private Timer update;
 
 		// Settings accessible via Unity
@@ -96,7 +98,7 @@ namespace Joycon4CS
 				jc.Attach(leds_: LEDs);
 				jc.Begin();
 			}
-			update = new Timer(16);
+			update = new Timer(timerTick);
 			update.Elapsed += Update_Elapsed;
 			update.Start();
 		}
@@ -104,9 +106,6 @@ namespace Joycon4CS
 		private void Update_Elapsed(object sender, ElapsedEventArgs e)
 		{
 			Update();
-			if (DriftFilter.currentValue > 360)
-				DriftFilter.currentValue = 0;
-			DriftFilter.currentValue += DriftFilter.force;
 		}
 
 		internal void Update()

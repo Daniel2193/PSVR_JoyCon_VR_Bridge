@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DriftFilter.cs" />
     <Compile Include="JoyconLib4CS\HIDapi.cs" />
     <Compile Include="JoyconLib4CS\Joycon.cs" />
     <Compile Include="JoyconLib4CS\JoyconManager.cs" />
