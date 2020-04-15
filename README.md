@@ -15,6 +15,10 @@ For this Project im using a PSVR Headset and 2 Nintendo Switch Joycons
     
     -> If this doesnt work just restart the FreePieIO_Module.exe
 
+- One Joycon sometimes dont communicate even though they are connected correctly
+
+    -> Easy Fix: Just Restart the program
+    
 
 # Setup / How to Run it
 
