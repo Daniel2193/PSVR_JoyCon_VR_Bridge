@@ -12,6 +12,8 @@ For this Project im using a PSVR Headset and 2 Nintendo Switch Joycons
 - Resetting the Joycon orientation (Yaw Axis) sometimes not work as supposed
 
     -> Easy Fix: Aling your Joycon to the rotation you see in VR and press Reset again
+    
+    -> If this doesnt work just restart the FreePieIO_Module.exe
 
 
 # Setup
