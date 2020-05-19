@@ -36,11 +36,11 @@ If you want to use it you need these 2 programs
     
     -> Set "Right Hand Device" to "FreePieRight"
     
-    -> [Temporary] Enable "Follow Headset"
+    -> Disable "Follow Headset"
     
-    -> [Temporary] Enable "Rotate With Headset"
+    -> Disable "Rotate With Headset"
     
-    -> [Temporary] Play around with the "Controller Position" Sliders until they are where you want them to be
+    -> Play around with the "Controller Position" Sliders until they are as close as possible to your elbows (here are mine: https://imgur.com/a/giYNJZs)
     
 - FreePie (https://github.com/AndersMalmgren/FreePIE)
 
