@@ -40,7 +40,11 @@ If you want to use it you need these 2 programs
     
     -> Disable "Rotate With Headset"
     
-    -> Play around with the "Controller Position" Sliders until they are as close as possible to your elbows (here are mine: https://imgur.com/a/giYNJZs)
+    -> Play around with the "Controller Position" Sliders until they are as close as possible to your elbows
+    
+    Here is how they look on my setup:
+    
+    <img width="99" alt="aaaaaaaaaaaaa" src="https://user-images.githubusercontent.com/23408743/82271441-12dfbf00-9978-11ea-9f06-9e569b8a1a1b.PNG">
     
 - FreePie (https://github.com/AndersMalmgren/FreePIE)
 
