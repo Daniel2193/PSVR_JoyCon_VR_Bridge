@@ -93,7 +93,7 @@ If you want to use it you need these 2 programs
 
 # Upcoming stuff
 
-- Adding Relative positioning (along Y and Z axis)
+- Adding GUI
 
 - Adding external Position Tracking
 
