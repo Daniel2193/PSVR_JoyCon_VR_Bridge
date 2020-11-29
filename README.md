@@ -1,4 +1,6 @@
-# STILL IN DEVELOPMENT
+# ABANDONED PROJECT
+If anyone would like to continue this project feel free to do so
+
 
 # Overview
 
